@@ -3,57 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gcunha's Website</title>
+    <title>gcunha</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
     <style>
         body{
-            text-align:center;
-            font-size:large;
-            font-family:'Courier New', Courier, monospace;
-            background-color:rgb(25,25,25);
-            color:darkviolet;
+            background-image:url(./images/background.png);
+            background-size:1000px 900px;
         }
-        .top{
-            letter-spacing:5px;
+        .container1{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            height:100vh;
         }
-        .center{
-            letter-spacing:-1px;
+        .box1{
+            width:600px;
+            height:500px;
+            border:1px solid black;
+            background-image:linear-gradient(to left, dodgerblue, deepskyblue);
+            border-radius:1%;
         }
-        .bottom{
-            letter-spacing:-1px;
+        .box2{
+            height:50px;
+            border:1px solid black;
+            background-image:linear-gradient(to left, dodgerblue, deepskyblue);
         }
-        a:link{
-            color:darkviolet;
+        .p1{
+            color:black;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }
-        a:visited{
-            color:darkviolet;
+        .p2{
+            color:black;
+            font-family:Arial, Helvetica, sans-serif;
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }
-        a:hover{
-            color:blueviolet;
+        .p3{
+            color:black;
+            font-family:Arial, Helvetica, sans-serif;
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }
-        a:active{
-            color:blueviolet;
+        .p4{
+            color:black;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top:85px;
+            padding-left:220px;
         }
-        hr{
-            border: 1px solid darkviolet;
+        .img1{
+           border:5px solid black;
+           display:block;
+           margin-left:auto;
+           margin-right:auto;
+        }
+        .img2{
+            margin-left:183px;
+            float:left;
+        }
+        figcaption{
+            color:black;
+            font-family:Arial, Helvetica, sans-serif;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin-top:5px;
         }
     </style>
 </head>
 <body>
-    <div class="top">
-        <h1><u>gcunha's Website</u></h1>
-        <img src="./images/m3_gtr.png" height="150">
-        <hr>
-    </div>
-    <div class="center">
-        <br>
-        <p>Meu nome é Gabriel Guimarães Cunha, sou estudante no Curso Técnico em Informática Integrado ao Ensino Médio no Cefet/RJ UnED Nova Friburgo.</p>
-        <p>Este é o meu site para a disciplina de Design Web, em que aprendemos HTML e CSS.</p>
-    </div>
-    <div class="bottom">
-        <br>
-        <a href="https://github.com/gcunhagabriel">Meu perfil no GitHub</a>
-        <br>
-        <a href="https://github.com/kakleinm">Perfil da Karen</a>
+    <div class="container1">
+        <div class="box1">
+            <div class="box2">
+                <p class="p1">Olá! Seja bem-vindo(a) ao meu Website! :D</p>
+            </div>
+            <p class="p2">Sou aluno do Cefet/RJ UnED Nova Friburgo do Curso Técnico em Informática.</p>
+            <p class="p3">Esse site tem como objetivo ser a página inicial da disciplina de Design Web.</p>
+            <img class="img1" src="./images/mario.gif" width="250px;"></img>
+            <figcaption>Estamos na versão 3.0!</figcaption>
+            <a href="https://joaotoledomartins.github.io/"><img class="img2" src="./images/questionblock.png" width="25"></a>
+            <a href="https://kakleinm.github.io/"><img class="img2" src="./images/questionblock.png" width="25"></a>        
+            <p class="p4">Todos direitos reservados © Gabriel Guimarães 2024</p>
+        </div>
     </div>
 </body>
 </html>
