@@ -1,0 +1,138 @@
+@font-face {
+  font-family: DPComic;
+  src: url(fonts/dpcomic.ttf);
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#ffffff, #e9e2f3);
+  padding-bottom: 15.4em;
+  max-height: 32em;
+}
+.container {
+  margin-top: 5em;
+  width: 800px;
+}
+.titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: DPComic;
+  font-size: 1.5rem;
+}
+.titulo h1 {
+  background-image: linear-gradient(to left, #e4a5de, #6cd4f3);
+  color: #ffffff;
+  font-weight: normal;
+}
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-image: linear-gradient(to left, #e4a5de, #6cd4f3);
+}
+.caixa {
+  width: 400px;
+  height: 400px;
+}
+.caixa h3 {
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-family: "Pixelify Sans";
+}
+#esquerda {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-right: 0.2em dashed #ffffff;
+}
+#esquerda p {
+  text-align: justify;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: "Pixelify Sans";
+}
+#esquerda a {
+  color: #ffffff;
+}
+#esquerda a:hover {
+  color: #e9e2f3;
+}
+#nome {
+    font-weight: bold;
+}
+#direita {
+  position: relative;
+  text-align: center;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #ffffff;
+}
+.github {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Pixelify Sans";
+  font-size: 1.5em;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+#direita .github:hover {
+  background-color: #e9e2f3;
+}
+#direita img {
+  position: absolute;
+  width: 7em;
+}
+.normal {
+  right: 0;
+  bottom: 0;
+}
+#ditto {
+  left: 14em;
+}
+.shiny {
+  left: 0;
+  bottom: 0;
+  transform: scaleX(-1);
+}
+#ditto_shiny {
+  left: 3.9em;
+}
+#vs {
+    position: relative;
+    margin-top: 0.2em;
+    font-size: 3em;
+    font-family: DPComic;
+    bottom: 1em;
+}
+.pixel {
+    font-family: "Pixelify Sans";
+}
+#direita ul {
+  display: inline;
+  list-style-type: none;
+  margin-right: 2.5em;
+}
+#direita ul a {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+#direita ul a:hover {
+  color: #e9e2f3;
+}
+#direita nav {
+  position: relative;
+  bottom: 2.5em;
+}
+#atividades {
+    position: relative;
+    bottom: 0.2em;
+}
+#luta {
+    position: relative;
+    bottom: 2.5em;
+}
