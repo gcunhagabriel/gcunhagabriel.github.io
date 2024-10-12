@@ -62,7 +62,7 @@ body {
   color: #e9e2f3;
 }
 #nome {
-    font-weight: bold;
+  font-weight: bold;
 }
 #direita {
   position: relative;
@@ -103,14 +103,14 @@ body {
   left: 3.9em;
 }
 #vs {
-    position: relative;
-    margin-top: 0.2em;
-    font-size: 3em;
-    font-family: DPComic;
-    bottom: 1em;
+  position: relative;
+  margin-top: 0.2em;
+  font-size: 3em;
+  font-family: DPComic;
+  bottom: 1em;
 }
 .pixel {
-    font-family: "Pixelify Sans";
+  font-family: "Pixelify Sans";
 }
 #direita ul {
   display: inline;
@@ -129,10 +129,10 @@ body {
   bottom: 2.5em;
 }
 #atividades {
-    position: relative;
-    bottom: 0.2em;
+  position: relative;
+  bottom: 0.2em;
 }
 #luta {
-    position: relative;
-    bottom: 2.5em;
+  position: relative;
+  bottom: 2.5em;
 }
